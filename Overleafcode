@@ -74,7 +74,62 @@
       \resumeItem{Relevant coursework: Data Structures and Algorithms, Database Management Systems, Software Architecture, Web Development, Mobile Application Development, Computer Networks, Artificial Intelligence, Java, Python, C++, C, Operating Systems, Network Security}
       \resumeItem{Activities: Volunteer tutor for first‑year programming courses}
     \resumeItemListEnd\vspace{-12pt}
-    
+
+% --------------------------------------------------
+%   Tighter spacing just for the Projects section
+% --------------------------------------------------
+\renewcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
+\renewcommand{\resumeProjectHeading}[2]{%
+  \item
+  \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+    \small #1 & \textbf{\small #2}
+  \end{tabular*}\vspace{-2pt}}
+% ==================================================
+%                     Projects
+% ==================================================
+\section{Projects}
+\resumeSubHeadingListStart
+
+  \resumeProjectHeading{\textbf{Real‑Time Network Monitoring System}
+    \emph{| \href{https://github.com/JugiasGirn/Network-Monitoring-}{Source Code}}}
+    {Flask · React · SQLite · Python · ML}
+  \resumeItemListStart
+    \resumeItem{Full‑stack dashboard for live traffic visualisation and ML‑based anomaly detection enabling proactive security intervention.}
+    \resumeItem{Added real‑time packet capture via \texttt{Scapy}; threat module flags port‑scans, DDoS spikes, and failed‑login bursts, all charted in React.}
+  \resumeItemListEnd
+
+  \resumeProjectHeading{\textbf{Art Evolve AI (Abstract GAN)}
+    \emph{| \href{https://github.com/JugiasGirn/Art-Evolve--AI}{Source Code}}}
+    {Python · NumPy · Pillow · Tkinter}
+  \resumeItemListStart
+    \resumeItem{Custom GAN generates abstract art without pre‑trained weights; includes an interactive Tkinter UI for iterative refinement.}
+    \resumeItem{Evolution loop scores images with a colour‑harmony metric and converges to 128×128 canvases in 50 generations.}
+  \resumeItemListEnd
+
+  \resumeProjectHeading{\textbf{Doctor+ SRS} \emph{| Documentation}}
+    {UML · Agile}
+  \resumeItemListStart
+    \resumeItem{Co‑authored comprehensive requirements document with system architecture, use‑case diagrams, activity models, and design constraints for a healthcare platform.}
+    \resumeItem{Final deliverable is a 30‑page PDF featuring UML class \& sequence diagrams, CRUD matrices, and a risk‑mitigation table.}
+  \resumeItemListEnd
+
+  \resumeProjectHeading{\textbf{Android Appointment App}
+    \emph{| \href{https://github.com/JugiasGirn/Jugias-doctor-app-android}{Source Code}}}
+    {Java · Firebase · Android}
+  \resumeItemListStart
+    \resumeItem{Developed Android app with secure notifications and appointment scheduling; emphasized modular architecture and intuitive UI.}
+   
+  \resumeItemListEnd
+
+  \resumeProjectHeading{\textbf{Network Simulations} \emph{| Demo}}
+    {Cisco Packet Tracer · Wireshark}
+  \resumeItemListStart
+    \resumeItem{Configured and simulated networks in Cisco Packet Tracer, then monitored live traffic with Wireshark—insights led to tuned routing rules and measurable performance gains.}
+   
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd\vspace{-10pt}
+
     % ==================================================
     %                 Work Experience
     % ==================================================
@@ -86,10 +141,7 @@
        
       \resumeItemListEnd
     
-      \resumeSubheading{Vadium Security}{Mar 2024 -- Jul 2024}{Security Guard}{Kamloops, BC}
-      \resumeItemListStart
-        \resumeItem{Monitored CCTV feeds, escalated incidents, and supported investigations, ensuring a secure environment for customers and staff.}
-      \resumeItemListEnd
+
     
       \resumeSubheading{7‑Eleven}{Sep 2023 -- May 2024}{Sales Associate}{Kamloops, BC}
       \resumeItemListStart
@@ -97,31 +149,7 @@
       \resumeItemListEnd
     \resumeSubHeadingListEnd\vspace{-12pt}
     
-    % ==================================================
-    %                     Projects
-    % ==================================================
-    \section{Projects}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading{\textbf{Real‑Time Network Monitoring System} \emph{| \href{https://github.com/JugiasGirn/Network-Monitoring-}{Source Code}}}{Flask · React · SQLite · Python · ML}
-      \resumeItemListStart
-        \resumeItem{Full‑stack dashboard for live traffic visualisation and ML‑based anomaly detection enabling proactive security intervention.}
-      \resumeItemListEnd
-    
-      \resumeProjectHeading{\textbf{Art Evolve AI (Abstract GAN)} \emph{| \href{https://github.com/JugiasGirn/Art-Evolve--AI}{Source Code}}}{Python · NumPy · Pillow · Tkinter}
-      \resumeItemListStart
-        \resumeItem{Custom GAN generates abstract art without pre‑trained weights; includes an interactive Tkinter UI for iterative refinement.}
-      \resumeItemListEnd
-    
-      \resumeProjectHeading{\textbf{Doctor+ SRS} \emph{| Documentation}}{UML · Agile}
-      \resumeItemListStart
-        \resumeItem{Co‑authored comprehensive requirements document with system architecture, use‑case diagrams, activity models, and design constraints for a healthcare platform.}
-      \resumeItemListEnd
-    
-      \resumeProjectHeading{\textbf{Android Appointment App} \emph{|\href{https://github.com/JugiasGirn/Jugias-doctor-app-android} {Source Code}}}{Java · Firebase · Android}
-      \resumeItemListStart
-        \resumeItem{Developed Android app with secure notifications and appointment scheduling; emphasized modular architecture and intuitive UI.}
-      \resumeItemListEnd
-    \resumeSubHeadingListEnd\vspace{-12pt}
+   
     
     % ==================================================
     %                 Technical Skills
