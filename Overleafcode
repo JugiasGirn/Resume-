@@ -117,7 +117,7 @@
         \resumeItem{Co‑authored comprehensive requirements document with system architecture, use‑case diagrams, activity models, and design constraints for a healthcare platform.}
       \resumeItemListEnd
     
-      \resumeProjectHeading{\textbf{Android Appointment App} \emph{| Class Project}}{Java · Firebase · Android}
+      \resumeProjectHeading{\textbf{Android Appointment App} \emph{|\href{https://github.com/JugiasGirn/Jugias-doctor-app-android} {Source Code}}}{Java · Firebase · Android}
       \resumeItemListStart
         \resumeItem{Developed Android app with secure notifications and appointment scheduling; emphasized modular architecture and intuitive UI.}
       \resumeItemListEnd
