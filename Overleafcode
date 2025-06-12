@@ -130,7 +130,7 @@
 
   \resumeProjectHeading{\textbf{Android Appointment App}
     \emph{| \href{https://github.com/JugiasGirn/Jugias-doctor-app-android}{Source Code}}}
-    {Java · Firebase · Android}
+    {Java · Android}
   \resumeItemListStart
     \resumeItem{Developed Android app with secure notifications and appointment scheduling; emphasized modular architecture and intuitive UI.}
   \resumeItemListEnd
@@ -147,12 +147,18 @@
 % ==================================================
 \section{Certifications}
 \resumeSubHeadingListStart
-  \resumeSubheading
-    {AWS Certified Cloud Practitioner (CLF-C02)}{Issued Jun 2025}
-    {\href{https://www.linkedin.com/posts/jugias-girn-38b4721b8_thrilled-to-share-that-ive-cleared-the-activity-7338647794733195264-KJpx}
-          {Pdf}}
-    {Score 857 / 1000 — \textbf{Pass}}
-\resumeSubHeadingListEnd\vspace{-12pt}
+
+  % ---------- AWS CLF-C02 ----------
+  \resumeProjectHeading{%
+    \textbf{AWS Certified Cloud Practitioner (CLF-C02)}
+    \emph{| \href{https://www.linkedin.com/posts/jugias-girn-38b4721b8_thrilled-to-share-that-ive-cleared-the-activity-7338647794733195264-KJpx}
+                 {Digital Credential}}}
+    {Score 857 / 1000 · Issued Jun 2025}
+  \resumeItemListStart
+    \resumeItem{Verified cloud fundamentals: billing, security, architecture, and deployment best-practices on AWS.}
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd\vspace{-10pt}
 
 % ==================================================
 %                 Work Experience
