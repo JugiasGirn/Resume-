@@ -1,79 +1,94 @@
-    \documentclass[letterpaper,11pt]{article}
-    
-    % --------------------------------------------------
-    %           Packages & Global Setup
-    % --------------------------------------------------
-    \usepackage{latexsym}
-    \usepackage[empty]{fullpage}
-    \usepackage{titlesec}
-    \usepackage{marvosym}
-    \usepackage[usenames,dvipsnames]{color}
-    \usepackage{enumitem}
-    \usepackage[hidelinks]{hyperref}
-    \usepackage{fancyhdr}
-    \usepackage[english]{babel}
-    \usepackage{tabularx}
-    \usepackage{fontawesome5}
-    \usepackage{multicol}
-    \setlength{\multicolsep}{-3.0pt}
-    \setlength{\columnsep}{-1pt}
-    \input{glyphtounicode}
-    \usepackage[margin=1.4cm]{geometry}
-    
-    \pagestyle{fancy}
-    \fancyhf{} \fancyfoot{}
-    \renewcommand{\headrulewidth}{0pt}
-    \renewcommand{\footrulewidth}{0pt}
-    
-    \addtolength{\oddsidemargin}{-0.15in}
-    \addtolength{\textwidth}{0.3in}
-    \urlstyle{same}
-    \raggedbottom \raggedright
-    \setlength{\tabcolsep}{0in}
-    
-    \titleformat{\section}{\vspace{-4pt}\scshape\raggedright\large\bfseries}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
-    \pdfgentounicode=1
-    
-    % --------------------------------------------------
-    %                Custom Commands
-    % --------------------------------------------------
-    \newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{0pt}}}}
-    \newcommand{\resumeSubheading}[4]{\vspace{-2pt}\item\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}\textbf{#1} & \textbf{\small #2} \\ \textit{\small#3} & \textit{\small #4} \\ \end{tabular*}\vspace{-7pt}}
-    \newcommand{\resumeProjectHeading}[2]{\item\begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}\small#1 & \textbf{\small #2}\\ \end{tabular*}\vspace{-7pt}}
-    \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
-    \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}\vspace{0pt}
-    \newcommand{\resumeItemListStart}{\begin{itemize}}
-    \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
-    \renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
-    
-    % --------------------------------------------------
-    %                   Document
-    % --------------------------------------------------
-    \begin{document}
-    
-    % --------------------------------------------------
-    %                   Header
-    % --------------------------------------------------
-    \begin{center}
-      {\Large \scshape JUGIAS GIRN} \\[0.5mm]
-      \footnotesize
-      \faPhone\ \underline{+1~778‑242‑2051}\hspace{1.2em}
-      \faEnvelope\ \underline{jugiasgirn@gmail.com}\hspace{1.2em}
-      \faGithub\ \underline{\href{https://github.com/JugiasGirn}{github.com/JugiasGirn}}\hspace{1.2em}
-      \faLinkedin\ \underline{\href{https://www.linkedin.com/in/jugias-girn-38b4721b8/}{linkedin.com/in/jugias-girn-38b4721b8}}\\[-8pt]
-    \end{center}
-    
-    % ==================================================
-    %                     Education
-    % ==================================================
-    \section{Education}
-    \resumeSubHeadingListStart
-      \resumeSubheading{Thompson Rivers University}{Expected Sep 2026}{Bachelor of Computing Science (Co‑op)}{Kamloops, BC}
-    \resumeSubHeadingListEnd
-    \resumeItemListStart
-      \resumeItem{Relevant coursework: Data Structures and Algorithms, Database Management Systems, Software Architecture, Web Development, Mobile Application Development, Computer Networks, Artificial Intelligence, Java, Python, C++, C, Operating Systems, Network Security}
-      \resumeItem{Activities: Volunteer tutor for first‑year programming courses}
-    \resumeItemListEnd\vspace{-12pt}
+\documentclass[letterpaper,11pt]{article}
+
+% --------------------------------------------------
+%           Packages & Global Setup
+% --------------------------------------------------
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage[margin=1.4cm]{geometry}
+
+\pagestyle{fancy}
+\fancyhf{} \fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.15in}
+\addtolength{\textwidth}{0.3in}
+\urlstyle{same}
+\raggedbottom\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}
+  {\vspace{-4pt}\scshape\raggedright\large\bfseries}
+  {}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+\pdfgentounicode=1
+
+% --------------------------------------------------
+%                Custom Commands
+% --------------------------------------------------
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{0pt}}}}
+\newcommand{\resumeSubheading}[4]{%
+  \vspace{-2pt}\item
+  \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & \textbf{\small #2} \\
+    \textit{\small #3} & \textit{\small #4} \\
+  \end{tabular*}\vspace{-7pt}}
+\newcommand{\resumeProjectHeading}[2]{%
+  \item
+  \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+    \small #1 & \textbf{\small #2}
+  \end{tabular*}\vspace{-7pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}%
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}\vspace{0pt}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+% --------------------------------------------------
+%                   Document
+% --------------------------------------------------
+\begin{document}
+
+% --------------------------------------------------
+%                   Header
+% --------------------------------------------------
+\begin{center}
+  {\Large \scshape JUGIAS GIRN} \\[0.5mm]
+  \footnotesize
+  \faPhone\ \underline{+1~778-242-2051}\hspace{1.2em}
+  \faEnvelope\ \underline{jugiasgirn@gmail.com}\hspace{1.2em}
+  \faGithub\ \underline{\href{https://github.com/JugiasGirn}{github.com/JugiasGirn}}\hspace{1.2em}
+  \faLinkedin\ \underline{\href{https://www.linkedin.com/in/jugias-girn-38b4721b8/}{linkedin.com/in/jugias-girn-38b4721b8}}\\[-8pt]
+\end{center}
+
+% ==================================================
+%                     Education
+% ==================================================
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading{Thompson Rivers University}{Expected Sep 2026}
+                    {Bachelor of Computing Science (Co-op)}{Kamloops, BC}
+\resumeSubHeadingListEnd
+\resumeItemListStart
+  \resumeItem{Relevant coursework: Data Structures and Algorithms, Database
+  Management Systems, Software Architecture, Web Development, Mobile Application
+  Development, Computer Networks, Artificial Intelligence, Java, Python, C++,
+  C, Operating Systems, Network Security}
+  \resumeItem{Activities: Volunteer tutor for first-year programming courses}
+\resumeItemListEnd\vspace{-12pt}
 
 % --------------------------------------------------
 %   Tighter spacing just for the Projects section
@@ -90,77 +105,78 @@
 \section{Projects}
 \resumeSubHeadingListStart
 
-  \resumeProjectHeading{\textbf{Real‑Time Network Monitoring System}
-    \emph{| \href{https://github.com/JugiasGirn/Network-Monitoring-}{Source Code}}}
+  \resumeProjectHeading{\textbf{Real-Time Network Monitoring System}
+    \emph{| \href{https://github.com/JugiasGirn/Network-Monitoring-}{Source Code}}}
     {Flask · React · SQLite · Python · ML}
   \resumeItemListStart
-    \resumeItem{Full‑stack dashboard for live traffic visualisation and ML‑based anomaly detection enabling proactive security intervention.}
-    \resumeItem{Added real‑time packet capture via \texttt{Scapy}; threat module flags port‑scans, DDoS spikes, and failed‑login bursts, all charted in React.}
+    \resumeItem{Full-stack dashboard for live traffic visualisation and ML-based anomaly detection enabling proactive security intervention.}
+    \resumeItem{Added real-time packet capture via \texttt{Scapy}; threat module flags port-scans, DDoS spikes, and failed-login bursts, all charted in React.}
   \resumeItemListEnd
 
-  \resumeProjectHeading{\textbf{Art Evolve AI (Abstract GAN)}
-    \emph{| \href{https://github.com/JugiasGirn/Art-Evolve--AI}{Source Code}}}
+  \resumeProjectHeading{\textbf{Art Evolve AI (Abstract GAN)}
+    \emph{| \href{https://github.com/JugiasGirn/Art-Evolve--AI}{Source Code}}}
     {Python · NumPy · Pillow · Tkinter}
   \resumeItemListStart
-    \resumeItem{Custom GAN generates abstract art without pre‑trained weights; includes an interactive Tkinter UI for iterative refinement.}
-    \resumeItem{Evolution loop scores images with a colour‑harmony metric and converges to 128×128 canvases in 50 generations.}
+    \resumeItem{Custom GAN generates abstract art without pre-trained weights; includes an interactive Tkinter UI for iterative refinement.}
+    \resumeItem{Evolution loop scores images with a colour-harmony metric and converges to 128×128 canvases in 50 generations.}
   \resumeItemListEnd
 
-  \resumeProjectHeading{\textbf{Doctor+ SRS} \emph{| Documentation}}
+  \resumeProjectHeading{\textbf{Doctor+ SRS} \emph{| Documentation}}
     {UML · Agile}
   \resumeItemListStart
-    \resumeItem{Co‑authored comprehensive requirements document with system architecture, use‑case diagrams, activity models, and design constraints for a healthcare platform.}
-    \resumeItem{Final deliverable is a 30‑page PDF featuring UML class \& sequence diagrams, CRUD matrices, and a risk‑mitigation table.}
+    \resumeItem{Co-authored comprehensive requirements document with system architecture, use-case diagrams, activity models, and design constraints for a healthcare platform.}
+    \resumeItem{Final deliverable is a 30-page PDF featuring UML class \& sequence diagrams, CRUD matrices, and a risk-mitigation table.}
   \resumeItemListEnd
 
   \resumeProjectHeading{\textbf{Android Appointment App}
-    \emph{| \href{https://github.com/JugiasGirn/Jugias-doctor-app-android}{Source Code}}}
+    \emph{| \href{https://github.com/JugiasGirn/Jugias-doctor-app-android}{Source Code}}}
     {Java · Firebase · Android}
   \resumeItemListStart
     \resumeItem{Developed Android app with secure notifications and appointment scheduling; emphasized modular architecture and intuitive UI.}
-   
   \resumeItemListEnd
 
-  \resumeProjectHeading{\textbf{Network Simulations} \emph{| Demo}}
-    {Cisco Packet Tracer · Wireshark}
+  \resumeProjectHeading{\textbf{Network Simulations} \emph{| Demo}}
+    {Cisco Packet Tracer · Wireshark}
   \resumeItemListStart
-    \resumeItem{Configured and simulated networks in Cisco Packet Tracer, then monitored live traffic with Wireshark—insights led to tuned routing rules and measurable performance gains.}
-   
+    \resumeItem{Configured and simulated networks in Cisco Packet Tracer, then monitored live traffic with Wireshark—insights led to tuned routing rules and measurable performance gains.}
   \resumeItemListEnd
 
 \resumeSubHeadingListEnd\vspace{-10pt}
+% ==================================================
+%                  Certifications
+% ==================================================
+\section{Certifications}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {AWS Certified Cloud Practitioner (CLF-C02)}{Issued Jun 2025}
+    {\href{https://www.linkedin.com/posts/jugias-girn-38b4721b8_thrilled-to-share-that-ive-cleared-the-activity-7338647794733195264-KJpx}
+          {Pdf}}
+    {Score 857 / 1000 — \textbf{Pass}}
+\resumeSubHeadingListEnd\vspace{-12pt}
 
-    % ==================================================
-    %                 Work Experience
-    % ==================================================
-    \section{Work Experience}
-    \resumeSubHeadingListStart
-      \resumeSubheading{Ronik Security}{Jul 2024 -- Present}{Call Centre Manager \& Patrolling Officer}{Kamloops, BC}
-      \resumeItemListStart
-        \resumeItem{Coordinate dispatch operations and maintain real‑time incident logs, delivering hourly updates and collaborating with law enforcement when necessary.}
-       
-      \resumeItemListEnd
-    
+% ==================================================
+%                 Work Experience
+% ==================================================
+\section{Work Experience}
+\resumeSubHeadingListStart
+  \resumeSubheading{Ronik Security}{Jul 2024 -- Present}
+                    {Call Centre Manager \& Patrolling Officer}{Kamloops, BC}
 
-    
-      \resumeSubheading{7‑Eleven}{Sep 2023 -- May 2024}{Sales Associate}{Kamloops, BC}
-      \resumeItemListStart
-        \resumeItem{Managed till operations, processed BCLC lottery sales, and consistently met customer‑service targets in a high‑traffic retail setting.}
-      \resumeItemListEnd
-    \resumeSubHeadingListEnd\vspace{-12pt}
-    
-   
-    
-    % ==================================================
-    %                 Technical Skills
-    % ==================================================
-    \section{Technical Skills}
-    \begin{itemize}[leftmargin=0.15in, label={}]
-      \small{\item{
-        \textbf{Languages}: Python, Java, C++, C, JavaScript, HTML/CSS, MySQL, Power Bi \\[2pt]
-        \textbf{Frameworks/Tools}: React, Flask, SQLite, MySQL, Docker, Git, Agile, scikit‑learn, NumPy, Matplotlib \\[2pt]
-        \textbf{Platforms}: AWS, Cisco Packet Tracer, Wireshark, Linux, ReactJS, NodeJS, Spring Boot }}
-    \end{itemize}
-    
-    \end{document}
-    
+  \resumeSubheading{7-Eleven}{Sep 2023 -- May 2024}
+                    {Sales Associate}{Kamloops, BC}
+
+\resumeSubHeadingListEnd\vspace{-12pt}
+
+
+% ==================================================
+%                 Technical Skills
+% ==================================================
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Languages}: Python, Java, C++, C, JavaScript, HTML/CSS, MySQL, Power BI \\[2pt]
+    \textbf{Frameworks/Tools}: React, Flask, SQLite, MySQL, Docker, Git, Agile, scikit-learn, NumPy, Matplotlib \\[2pt]
+    \textbf{Platforms}: AWS, Cisco Packet Tracer, Wireshark, Linux, ReactJS, NodeJS, Spring Boot }}
+\end{itemize}
+
+\end{document}
