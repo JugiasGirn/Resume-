@@ -66,13 +66,13 @@
 %                   Header
 % --------------------------------------------------
 \begin{center}
-  {\Large \scshape JUGIAS GIRN} \\[0.5mm]
-  \footnotesize
-  \faPhone\ \underline{+1~778-242-2051}\hspace{1.2em}
-  \faEnvelope\ \underline{jugiasgirn@gmail.com}\hspace{1.2em}
-  \faGithub\ \underline{\href{https://github.com/JugiasGirn}{github.com/JugiasGirn}}\hspace{1.2em}
-  \faLinkedin\ \underline{\href{https://www.linkedin.com/in/jugias-girn-38b4721b8/}{linkedin.com/in/jugias-girn-38b4721b8}}\\[-8pt]
+  {\Large \scshape JUGIAS GIRN}\\[1pt]
+  {\small
+    \faEnvelope\ \underline{jugiasgirn@gmail.com}\hspace{0.6em}%
+    \faLinkedin\ \underline{\href{https://www.linkedin.com/in/jugias-girn-38b4721b8/}{linkedin.com/in/jugias-girn-38b4721b8}}\hspace{0.6em}%
+    \faGlobe\ \underline{\href{http://jugias-portfolio.s3-website.ca-central-1.amazonaws.com/}{jugias-portfolio.s3-website.ca-central-1.amazonaws.com}}}
 \end{center}
+
 
 % ==================================================
 %                     Education
